@@ -1,16 +1,11 @@
 package org.cacois.JettyJerseyCassandra.resources;
 
-import org.cacois.JettyJerseyCassandra.services.StringService;
-
-import javax.annotation.security.RolesAllowed;
-import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.SecurityContext;
-import java.util.List;
 
 @Path("/hello")
 public class HelloWorldResource {

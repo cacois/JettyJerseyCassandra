@@ -1,6 +1,5 @@
 package org.cacois.JettyJerseyCassandra.resources;
 
-import com.datastax.driver.mapping.annotations.PartitionKey;
 import org.cacois.JettyJerseyCassandra.data.User;
 import org.cacois.JettyJerseyCassandra.data.UserDAO;
 

@@ -2,7 +2,6 @@ package org.cacois.JettyJerseyCassandra.data;
 
 import com.datastax.driver.mapping.annotations.PartitionKey;
 import com.datastax.driver.mapping.annotations.Table;
-import com.sun.tools.corba.se.idl.InterfaceGen;
 
 /**
  * Created by cacois on 3/4/16.
